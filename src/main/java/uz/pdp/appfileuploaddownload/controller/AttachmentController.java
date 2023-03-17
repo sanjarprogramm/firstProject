@@ -86,7 +86,7 @@ public class AttachmentController {
             Files.copy(file.getInputStream(), path);
             return "Fayl saqlandi . Id si " + attachment.getId();
         }
-        return "Saqlanmadi";
+        return "Fayl Saqlanmadi";
     }
 
 
